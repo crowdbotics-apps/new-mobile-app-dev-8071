@@ -1,6 +1,6 @@
 import axios from "axios"
 const newmobileAppAPI = axios.create({
-  baseURL: "https://new-mobile-app-dev-8071.herokuapp.com/",
+  baseURL: "https://new-mobile-app-dev-8071.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {
